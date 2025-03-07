@@ -49,35 +49,32 @@ This project is built to help DevOps practitioners enhance their skills by devel
 
 1. **Clone the repository:**
 
-   ```bash
+   ```
    git clone https://github.com/yourusername/DevOpsMonitor.git
    cd DevOpsMonitor
    ```
 2. **Set up infrastructure with Teraform**
+   
    ```
    terraform init
    terraform apply
    ```
-3. Provision servers with Ansible:
+4. Provision servers with Ansible:
 
-   ```bash
-   Copier
-   Modifier
+   ```
    ansible-playbook -i hosts setup.yml
    ```
-4. Build and deploy the platform with Docker:
-   ```bash
-   Copier
-   Modifier
+6. Build and deploy the platform with Docker:
+   
+   ```
    docker-compose up --build
    ```
-5. Run Kubernetes Pods (if using Kubernetes):
-   ```bash
-   Copier
-   Modifier
+8. Run Kubernetes Pods (if using Kubernetes):
+   
+   ```
    kubectl apply -f k8s/deployment.yaml
    ```
-6. Access the monitoring dashboard:
+10. Access the monitoring dashboard:
 Open the Grafana and Prometheus dashboards to view metrics and incidents.
 
 Future Enhancements
@@ -85,12 +82,9 @@ Add more detailed metrics and health checks.
 Enhance alerting with multiple notification channels (Slack, Email, etc.).
 Integrate machine learning for predictive incident detection.
 Implement user authentication and role-based access control (RBAC).
+
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-markdown
-Copier
-Modifier
 
 ### Key Sections of the README:
 1. **Project Overview**: Explains what the project is about and what it aims to achieve.
